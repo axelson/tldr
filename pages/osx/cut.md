@@ -14,3 +14,7 @@
 - Print a character range of each line of a specific file:
 
 `cut -c {{1}} {{path/to/file}}`
+
+- Print a all the characters after the third character
+
+`{{command}} | cut -c 3-`
